@@ -15,9 +15,9 @@
 |
 */
 if (ENVIRONMENT == "development")
-	$config['base_url']	= 'http://10.0.0.109/LBC/';
+	$config['base_url']	= 'http://10.0.0.102/LBC/';
 else
-	$config['base_url']	= 'http://10.0.0.109/LBC/';
+	$config['base_url']	= 'http://10.0.0.102/LBC/';
 
 /*
 |--------------------------------------------------------------------------

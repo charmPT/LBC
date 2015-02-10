@@ -762,7 +762,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 			            	<div class="span4">
 				               	<div class="thumbnail">
 			                  		<div class="caption">
-				                    	<center> <img data-src="holder.js/200x200" class="img-thumbnail" alt="200x200" src="assets/img/livecampaign.png" style="width:90%;"> </center> <br>
+				                    	<center> <img data-src="holder.js/200x200" class="img-thumbnail" alt="200x200" src="assets/img/slivecampaign.png" style="width:90%;"> </center> <br>
 										 	<p> List of campaigns that are currently being processed.  </p>
 										 	<table class="table table-bordered table-striped">
 			                					<thead>
@@ -789,7 +789,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 
 										            <tr>
 										                <td class="col-sm-1">Created By</td>
-										                <td class="col-sm-5"> SMS blast creator’s name </td>
+										                <td class="col-sm-5"> SMS blast creator's name </td>
 										            </tr>
 
 										            <tr>
@@ -810,6 +810,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 										            </tr>
 												</tbody>
 										    </table>
+
+										    <table class="table table-bordered table-striped">
+			                					<thead>
+										            <tr>
+										                <th class="col-sm-2"><span>Action</span></th> 
+										                <th class="col-sm-6"><span>Description</span></th>
+										            </tr>
+										        </thead>
+										        <tbody>
+										           <tr>
+										                <td class="col-sm-1">Filter by department</td>
+										                <td class="col-sm-5"> </td>
+										            </tr>
+												</tbody>
+										    </table>
 									</div>
 				                </div>
 				            </div>
@@ -822,7 +837,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 			            	<div class="span4">
 				               	<div class="thumbnail">
 			                  		<div class="caption">
-				                    	<center> <img data-src="holder.js/200x200" class="img-thumbnail" alt="200x200" src="assets/img/sentcampaign.png" style="width:90%;"> </center> <br>
+				                    	<center> <img data-src="holder.js/200x200" class="img-thumbnail" alt="200x200" src="assets/img/ssentcampaign.png" style="width:90%;"> </center> <br>
 										 	<p> List of campaigns that were successfully processed. </p>
 										 	<table class="table table-bordered table-striped">
 			                					<thead>
@@ -870,6 +885,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 										            </tr>
 												</tbody>
 										    </table>
+
+										    <table class="table table-bordered table-striped">
+			                					<thead>
+										            <tr>
+										                <th class="col-sm-2"><span>Action</span></th> 
+										                <th class="col-sm-6"><span>Description</span></th>
+										            </tr>
+										        </thead>
+										        <tbody>
+										           <tr>
+										                <td class="col-sm-1">Filter by department</td>
+										                <td class="col-sm-5"> </td>
+										            </tr>
+												</tbody>
+										    </table>
 									</div>
 				                </div>
 				            </div>	   	            	    
@@ -882,7 +912,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 			            	<div class="span4">
 				               	<div class="thumbnail">
 			                  		<div class="caption">
-				                    	<center> <img data-src="holder.js/200x200" class="img-thumbnail" alt="200x200" src="assets/img/draftcampaign.png" style="width:100%;"> </center> <br>
+				                    	<center> <img data-src="holder.js/200x200" class="img-thumbnail" alt="200x200" src="assets/img/sdraftcampaign.png" style="width:100%;"> </center> <br>
 										 	<p> List of unprocessed campaigns that are saved as draft. </p>
 										 	<table class="table table-bordered table-striped">
 			                					<thead>
@@ -927,6 +957,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 										                <td class="col-sm-5"> 
 										                	<p> Edit or delete created campaign </p>
 										                </td>
+										            </tr>
+												</tbody>
+										    </table>
+
+										     <table class="table table-bordered table-striped">
+			                					<thead>
+										            <tr>
+										                <th class="col-sm-2"><span>Action</span></th> 
+										                <th class="col-sm-6"><span>Description</span></th>
+										            </tr>
+										        </thead>
+										        <tbody>
+										           <tr>
+										                <td class="col-sm-1">Filter by department</td>
+										                <td class="col-sm-5"> </td>
 										            </tr>
 												</tbody>
 										    </table>
@@ -3342,7 +3387,93 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 											</table>
 	                    		</div>	
 		                </div>
-			        </div>                   
+			        </div>    
+
+			<h4 id="GenerateReport"> <strong> Custom Report (SMS Traffic Report) </strong> </h2>
+				<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_campaign"); ?>" >Back to Top</a> <br> <br>        	
+					<div class="span4">
+		                <div class="thumbnail">
+		                	<center> <img data-src="holder.js/200x200" class="img-thumbnail" alt="200x200" src="assets/img/customsmstrafficreport.png"  style="width:100%;"> </center><br>
+	                	   		<ol> 
+	                	   			<li> Select Start Date </li>
+	                	   			<li> Filter by Country </li>
+	                	   			<li> Select Campaigns </li>
+	                	   			<li> Select Products </li>
+	                	   			<li> Click Send </li>	
+				                </ol>
+	                	   		<div class="caption">
+			                    	<table class="table table-bordered table-striped">
+										<thead>
+								            <tr>
+								                <th class="col-sm-2"><span>Parameter</span></th> 
+								                <th class="col-sm-6"><span>Description</span></th>
+								            </tr>
+								        </thead>
+								        <tbody>
+								            <tr>
+								                <td class="col-sm-1">Start Date</td>
+								                <td class="col-sm-5">  </td>
+								            </tr>
+
+								            <tr>
+								                <td class="col-sm-1"> Filter by Country </td>
+								                <td class="col-sm-5">  </td>
+								            </tr>
+
+								            <tr>
+								                <td class="col-sm-1"> Campaigns </td>
+								                <td class="col-sm-5">  </td>
+								            </tr>
+
+								            <tr>
+								                <td class="col-sm-1"> Products </td>
+								                <td class="col-sm-5">  </td>
+								            </tr>
+								        </tbody>
+									</table>
+
+									<table class="table table-bordered table-striped">
+										<thead>
+								            <tr>
+								                <th class="col-sm-2"><span>Column</span></th> 
+								                <th class="col-sm-6"><span>Description</span></th>
+								            </tr>
+								        </thead>
+								        <tbody>
+								            <tr>
+								                <td class="col-sm-1"> Status </td>
+								                <td class="col-sm-5">  </td>
+								            </tr>
+
+								            <tr>
+								                <td class="col-sm-1"> Total Transactions </td>
+								                <td class="col-sm-5">  </td>
+								            </tr>
+
+								            <tr>
+								                <td class="col-sm-1"> Total Cost </td>
+								                <td class="col-sm-5">  </td>
+								            </tr>
+										</tbody>
+									</table>
+
+									<table class="table table-bordered table-striped">
+										<thead>
+								            <tr>
+								                <th class="col-sm-2"><span>Action</span></th> 
+								                <th class="col-sm-6"><span>Description</span></th>
+								            </tr>
+								        </thead>
+								        <tbody>
+								            <tr>
+								                <td class="col-sm-1">Send</td>
+								                <td class="col-sm-5">  </td>
+								            </tr>
+								        </tbody>
+									</table>
+							</div>	
+		                </div>
+			        </div>                       
 
 			<h1 id="ManageAccount"> <strong>  Manage Account </strong> </h1>
 				<h4 id="ChangePassword"> <strong>  Change Password </strong> </h4>
