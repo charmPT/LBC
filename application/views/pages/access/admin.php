@@ -143,13 +143,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 							        			<ul>
 							        				<li> <a href="<?php echo site_url("sample/page_admin"); ?>#GenerateReport"> Generate Report </a> </li>
 												</ul>
-											<li> <a href="<?php echo site_url("sample/page_admin"); ?>#SMSTraffic"> Custom Report </a> </li>	
+											<li> <a href="<?php echo site_url("sample/page_admin"); ?>#CustomReport"> Custom Report </a> </li>	
 												<ul>
-							        				<li> <a href="<?php echo site_url("sample/page_admin"); ?>#GenerateReport"> SMS Alert Reports per Product </a> </li>
-													<li> <a href="<?php echo site_url("sample/page_admin"); ?>#GenerateReport"> SMS Report - Pamme's Format </a> </li>
-													<li> <a href="<?php echo site_url("sample/page_admin"); ?>#GenerateReport"> Standard Logs Report </a> </li>
-													<li> <a href="<?php echo site_url("sample/page_admin"); ?>#GenerateReport"> SMS Monthly Reports </a> </li>
-													<li> <a href="<?php echo site_url("sample/page_admin"); ?>#GenerateReport"> SMS Traffic </a> </li>
+							        				<li> <a href="<?php echo site_url("sample/page_admin"); ?>#AlertReport"> SMS Alert Reports per Product </a> </li>
+													<li> <a href="<?php echo site_url("sample/page_admin"); ?>#Pamme'sReport"> SMS Report - Pamme's Format </a> </li>
+													<li> <a href="<?php echo site_url("sample/page_admin"); ?>#StandardLogsReport"> Standard Logs Report </a> </li>
+													<li> <a href="<?php echo site_url("sample/page_admin"); ?>#MonthlyReport"> SMS Monthly Reports </a> </li>
+													<li> <a href="<?php echo site_url("sample/page_admin"); ?>#SMSReport"> SMS Traffic </a> </li>
 												</ul>
 										</ul>
 									</div>
@@ -1744,7 +1744,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 		                </div>
 			        </div>
 
-			<h4 id="GenerateReport"> <strong> Sample SMS Traffic Report </strong> </h2>
+			<h4 id="GenerateReport"> <strong> Generate Report </strong> </h2>
 				<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_admin"); ?>" >Back to Top</a> <br> <br>        	
 					<div class="span4">
 		                <div class="thumbnail">
@@ -1923,7 +1923,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 		                </div>
 			        </div>	
 
-			<h4 id="CustomReport"> <strong> Custom Report (SMS Alert Reports per Product)</strong> </h2>
+			<h4 id="AlertReport"> <strong> Custom Report (SMS Alert Reports per Product)</strong> </h2>
 				<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_admin"); ?>" >Back to Top</a> <br> <br>        	
 					<div class="span4">
 		                <div class="thumbnail">
@@ -2047,7 +2047,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 		                </div>
 			        </div>	           	  
 
-			<h4 id="CustomReport"> <strong> Custom Report (SMS Report - Pamme's Format)</strong> </h2>
+			<h4 id="Pamme'sReport"> <strong> Custom Report (SMS Report - Pamme's Format)</strong> </h2>
 				<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_admin"); ?>" >Back to Top</a> <br> <br>        	
 					<div class="span4">
 		                <div class="thumbnail">
@@ -2262,7 +2262,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 		                </div>
 			        </div>	           	  
 			
-			<h4 id="GenerateReport"> <strong> Custom Report (Standard Logs Report) </strong> </h2>
+			<h4 id="StandardLogsReport"> <strong> Custom Report (Standard Logs Report) </strong> </h2>
 				<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_admin"); ?>" >Back to Top</a> <br> <br>        	
 					<div class="span4">
 		                <div class="thumbnail">
