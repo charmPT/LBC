@@ -2,7 +2,7 @@
 <title> LBC Superadmin User Guide </title>
 <head>
 
-	<base href="<?php echo base_url();?>" />  <!-- import image from folder -->
+	<base href="http://docs.lbc.promotexter.com/" />  <!-- import image from folder -->
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 
