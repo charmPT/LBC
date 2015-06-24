@@ -148,8 +148,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 							        				<li> <a href="<?php echo site_url("sample/page_admin"); ?>#AlertReport"> SMS Alert Reports per Product </a> </li>
 													<li> <a href="<?php echo site_url("sample/page_admin"); ?>#Pamme'sReport"> SMS Report - Pamme's Format </a> </li>
 													<li> <a href="<?php echo site_url("sample/page_admin"); ?>#StandardLogsReport"> Standard Logs Report </a> </li>
-													<li> <a href="<?php echo site_url("sample/page_admin"); ?>#MonthlyReport"> SMS Monthly Reports </a> </li>
-													<li> <a href="<?php echo site_url("sample/page_admin"); ?>#SMSReport"> SMS Traffic </a> </li>
 												</ul>
 										</ul>
 									</div>
