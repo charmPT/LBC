@@ -68,9 +68,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 	    						<div id="collapsesix" class="panel-collapse collapse">
 	      							<div class="panel-body">		
 		    							<ul>
-						    				<li> <a href="<?php echo site_url("sample/page_campaign"); ?>#SelectDates"> Select Dates </a> </li>
-						    				<li> <a href="<?php echo site_url("sample/page_campaign"); ?>#Download"> Download </a> </li>
-						    				<li> <a href="<?php echo site_url("sample/page_campaign"); ?>#AllCountries"> All Countries </a> </li>
+						    				<li> <a href="<?php echo site_url("sample/page_admin"); ?>#SelectDates"> Select Dates </a> </li>
+						    				<li> <a href="<?php echo site_url("sample/page_admin"); ?>#Download"> Download </a> </li>
+						    				<li> <a href="<?php echo site_url("sample/page_admin"); ?>#AllCountries"> All Countries </a> </li>
 						    			</ul>
 			      					</div>
 								</div>
@@ -83,13 +83,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 								<div id="collapseOne" class="panel-collapse collapse">
 	      							<div class="panel-body">
 	        							<ul> 
-							        		<li> <a href="<?php echo site_url("sample/page_campaign"); ?>#NewCampaign"> New Campaign </a> </li>
+							        		<li> <a href="<?php echo site_url("sample/page_admin"); ?>#NewCampaign"> New Campaign </a> </li>
 							        			<ul>
-							        				<li> <a href="<?php echo site_url("sample/page_campaign"); ?>#CampaignSummary"> Campaign Summary </a> </li>
+							        				<li> <a href="<?php echo site_url("sample/page_admin"); ?>#CampaignSummary"> Campaign Summary </a> </li>
 							        			</ul>
-							        		<li> <a href="<?php echo site_url("sample/page_campaign"); ?>#LiveCampaign"> Live Campaigns </a> </li>
-											<li> <a href="<?php echo site_url("sample/page_campaign"); ?>#SentCampaign"> Sent Campaigns</a> </li>
-											<li> <a href="<?php echo site_url("sample/page_campaign"); ?>#DraftCampaign"> Draft Campaigns</a> </li>
+							        		<li> <a href="<?php echo site_url("sample/page_admin"); ?>#LiveCampaign"> Live Campaigns </a> </li>
+											<li> <a href="<?php echo site_url("sample/page_admin"); ?>#SentCampaign"> Sent Campaigns</a> </li>
+											<li> <a href="<?php echo site_url("sample/page_admin"); ?>#DraftCampaign"> Draft Campaigns</a> </li>
 										</ul>
 									</div>
 								</div>
@@ -102,10 +102,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 								<div id="collapseTwo" class="panel-collapse collapse">
 	      							<div class="panel-body">
 	        							<ul> 
-	        								<li> <a href="<?php echo site_url("sample/page_campaign"); ?>#Inbox"> Inbox </a> </li>
+	        								<li> <a href="<?php echo site_url("sample/page_admin"); ?>#Inbox"> Inbox </a> </li>
 							        		<ul>
-								        		<li> <a href="<?php echo site_url("sample/page_campaign"); ?>#MessageHistory"> Message History </a> </li>
-								        		<li> <a href="<?php echo site_url("sample/page_campaign"); ?>#QuickSMS"> Quick SMS </a> </li>
+								        		<li> <a href="<?php echo site_url("sample/page_admin"); ?>#MessageHistory"> Message History </a> </li>
+								        		<li> <a href="<?php echo site_url("sample/page_admin"); ?>#QuickSMS"> Quick SMS </a> </li>
 											</ul>
 										</ul>
 									</div>
@@ -119,14 +119,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 								<div id="collapseThree" class="panel-collapse collapse">
 	      							<div class="panel-body">
 	        							<ul> 
-	        								<li> <a href="<?php echo site_url("sample/page_campaign"); ?>#Phonebook"> Phonebook </a> </li>
+	        								<li> <a href="<?php echo site_url("sample/page_admin"); ?>#Phonebook"> Phonebook </a> </li>
 	        									<ul>
-	        										<li> <a href="<?php echo site_url("sample/page_campaign"); ?>#AddContacts"> Add Contacts </a></li>
-	        										<li> <a href="<?php echo site_url("sample/page_campaign"); ?>#DownloadContacts"> Download Contacts </a></li>	
+	        										<li> <a href="<?php echo site_url("sample/page_admin"); ?>#AddContacts"> Add Contacts </a></li>
+	        										<li> <a href="<?php echo site_url("sample/page_admin"); ?>#DownloadContacts"> Download Contacts </a></li>	
 	        									</ul>
-							        		<li> <a href="<?php echo site_url("sample/page_campaign"); ?>#Groups"> Groups </a> </li>
-											<li> <a href="<?php echo site_url("sample/page_campaign"); ?>#UploadFile"> Upload File </a> </li>
-											<li> <a href="<?php echo site_url("sample/page_campaign"); ?>#Uploads"> Uploads </a> </li>
+							        		<li> <a href="<?php echo site_url("sample/page_admin"); ?>#Groups"> Groups </a> </li>
+											<li> <a href="<?php echo site_url("sample/page_admin"); ?>#UploadFile"> Upload File </a> </li>
+											<li> <a href="<?php echo site_url("sample/page_admin"); ?>#Uploads"> Uploads </a> </li>
 										</ul>
 									</div>
 								</div>
@@ -139,17 +139,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 								<div id="collapseFour" class="panel-collapse collapse">
 	      							<div class="panel-body">
 	        							<ul> 
-							        		<li> <a href="<?php echo site_url("sample/page_campaign"); ?>#SMSTraffic"> SMS Traffic Report </a> </li>
+							        		<li> <a href="<?php echo site_url("sample/page_admin"); ?>#SMSTraffic"> SMS Traffic Report </a> </li>
 							        			<ul>
-							        				<li> <a href="<?php echo site_url("sample/page_campaign"); ?>#GenerateReport"> Generate Report </a> </li>
+							        				<li> <a href="<?php echo site_url("sample/page_admin"); ?>#GenerateReport"> Generate Report </a> </li>
 												</ul>
-											<li> <a href="<?php echo site_url("sample/page_campaign"); ?>#SMSTraffic"> Custom Report </a> </li>	
+											<li> <a href="<?php echo site_url("sample/page_admin"); ?>#SMSTraffic"> Custom Report </a> </li>	
 												<ul>
-							        				<li> <a href="<?php echo site_url("sample/page_campaign"); ?>#GenerateReport"> SMS Alert Reports per Product </a> </li>
-													<li> <a href="<?php echo site_url("sample/page_campaign"); ?>#GenerateReport"> SMS Report - Pamme's Format </a> </li>
-													<li> <a href="<?php echo site_url("sample/page_campaign"); ?>#GenerateReport"> Standard Logs Report </a> </li>
-													<li> <a href="<?php echo site_url("sample/page_campaign"); ?>#GenerateReport"> SMS Monthly Reports </a> </li>
-													<li> <a href="<?php echo site_url("sample/page_campaign"); ?>#GenerateReport"> SMS Traffic </a> </li>
+							        				<li> <a href="<?php echo site_url("sample/page_admin"); ?>#GenerateReport"> SMS Alert Reports per Product </a> </li>
+													<li> <a href="<?php echo site_url("sample/page_admin"); ?>#GenerateReport"> SMS Report - Pamme's Format </a> </li>
+													<li> <a href="<?php echo site_url("sample/page_admin"); ?>#GenerateReport"> Standard Logs Report </a> </li>
+													<li> <a href="<?php echo site_url("sample/page_admin"); ?>#GenerateReport"> SMS Monthly Reports </a> </li>
+													<li> <a href="<?php echo site_url("sample/page_admin"); ?>#GenerateReport"> SMS Traffic </a> </li>
 												</ul>
 										</ul>
 									</div>
@@ -163,11 +163,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 								<div id="collapseSeven" class="panel-collapse collapse">
 	      							<div class="panel-body">
 	        							<ul> 
-							        		<li> <a href="<?php echo site_url("sample/page_campaign"); ?>#ChangePassword"> Change Password </a> </li>
-							        		<li> <a href="<?php echo site_url("sample/page_campaign"); ?>#DepartmentUsers"> Department Users </a> </li>	
+							        		<li> <a href="<?php echo site_url("sample/page_admin"); ?>#ChangePassword"> Change Password </a> </li>
+							        		<li> <a href="<?php echo site_url("sample/page_admin"); ?>#DepartmentUsers"> Department Users </a> </li>	
 												<ul>
-													<li> <a href="<?php echo site_url("sample/page_campaign"); ?>#DepartmentUsers"> Manage Users </a> </li>	
-													<li> <a href="<?php echo site_url("sample/page_campaign"); ?>#DepartmentUsers"> Add New User </a> </li>	
+													<li> <a href="<?php echo site_url("sample/page_admin"); ?>#DepartmentUsers"> Manage Users </a> </li>	
+													<li> <a href="<?php echo site_url("sample/page_admin"); ?>#DepartmentUsers"> Add New User </a> </li>	
 												</ul>
 										</ul>
 									</div>
@@ -183,7 +183,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 
 	<div class="col-sm-9">
 		<h1 id="Dashboard"> <strong> Dashboard </strong> </h1>
-		 <a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_campaign"); ?>" >Back to Top</a> <br> <br>        	
+		 <a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_admin"); ?>" >Back to Top</a> <br> <br>        	
 			<div class="span4">
                 <div class="thumbnail">
                 	<img data-src="holder.js/200x200" class="img-thumbnail" alt="200x200" src="assets/img/month.png"  style="width:70%;"> <br>
@@ -285,7 +285,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 
 		<h1 id="API"> <strong> API </strong> </h1>
 		 	<h4 id="APICalls"> <strong> API Calls </strong> </h4>
-			<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_campaign"); ?>" >Back to Top</a> <br> <br>        	
+			<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_admin"); ?>" >Back to Top</a> <br> <br>        	
 				<div class="span4">
 	                <div class="thumbnail">
 	                	<img data-src="holder.js/200x200" class="img-thumbnail" alt="200x200" src="assets/img/apicalls.png"  style="width:100%;"> <br>
@@ -391,7 +391,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 		    	</div>
 
 		    <h4 id="SelectDates"> <strong> Select Dates </strong> </h4>
-			<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_campaign"); ?>" >Back to Top</a> <br> <br>
+			<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_admin"); ?>" >Back to Top</a> <br> <br>
 				<div class= "col-sm-112">
 					<div class="row-fluid">
 			            <div class="thumbnails">
@@ -447,7 +447,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 				            </div>		
 
 			<h4 id="Download"> <strong> Download </strong> </h4>
-			<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_campaign"); ?>" >Back to Top</a> <br> <br>
+			<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_admin"); ?>" >Back to Top</a> <br> <br>
 				<div class= "col-sm-112">
 					<div class="row-fluid">
 			            <div class="thumbnails">
@@ -478,7 +478,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 				            </div>
 
 			<h4 id="AllCountries"> <strong> All Countries </strong> </h4>
-			<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_campaign"); ?>" >Back to Top</a> <br> <br>
+			<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_admin"); ?>" >Back to Top</a> <br> <br>
 				<div class= "col-sm-112">
 					<div class="row-fluid">
 			            <div class="thumbnails">
@@ -493,7 +493,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 
 		<h1 id="Campaign"> <strong> Campaign </strong> </h1>
 			<h4 id="NewCampaign"> <strong> New Campaign </strong> </h4>
-			<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_campaign"); ?>" >Back to Top</a> <br> <br>
+			<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_admin"); ?>" >Back to Top</a> <br> <br>
 				<div class= "col-sm-112">
 					<div class="row-fluid">
 			            <div class="thumbnails">
@@ -626,7 +626,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 						
 
 			<h4 id="CampaignSummary"> <strong> Campaign Summary </strong> </h4>
-			<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_campaign"); ?>" >Back to Top</a> <br> <br>
+			<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_admin"); ?>" >Back to Top</a> <br> <br>
 				<div class= "col-sm-112">
 					<div class="row-fluid">
 			            <div class="thumbnails">
@@ -733,7 +733,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 				            </div>	
 
 			<h4 id="LiveCampaign"> <strong> Live Campaigns </strong> </h4>
-			<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_campaign"); ?>" >Back to Top</a> <br> <br>
+			<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_admin"); ?>" >Back to Top</a> <br> <br>
 				<div class= "col-sm-112">
 					<div class="row-fluid">
 			            <div class="thumbnails">
@@ -793,7 +793,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 				            </div>
 
 			<h4 id="SentCampaign"> <strong> Sent Campaigns </strong> </h4>
-			<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_campaign"); ?>" >Back to Top</a> <br> <br>
+			<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_admin"); ?>" >Back to Top</a> <br> <br>
 				<div class= "col-sm-112">
 					<div class="row-fluid">
 			            <div class="thumbnails">
@@ -853,7 +853,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 				            </div>	   	            	    
 
 			<h4 id="DraftCampaign"> <strong> Draft Campaigns </strong> </h4>
-			<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_campaign"); ?>" >Back to Top</a> <br> <br>
+			<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_admin"); ?>" >Back to Top</a> <br> <br>
 				<div class= "col-sm-112">
 					<div class="row-fluid">
 			            <div class="thumbnails">
@@ -915,7 +915,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 
 		<h1 id="Inbox"> <strong> Inbox </strong> </h1>
 			<h4 id="Inbox"> <strong> Inbox </strong> </h4>
-				<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_campaign"); ?>" >Back to Top</a> <br> <br>        	
+				<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_admin"); ?>" >Back to Top</a> <br> <br>        	
 					<div class="span4">
 		                <div class="thumbnail">
 		                	<img data-src="holder.js/200x200" class="img-thumbnail" alt="200x200" src="assets/img/inbox.png"  style="width:100%;"> <br>
@@ -996,7 +996,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 				    </div>
 
 		<h4 id="MessageHistory"> <strong> Message History </strong> </h4>
-			<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_campaign"); ?>" >Back to Top</a> <br> <br>
+			<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_admin"); ?>" >Back to Top</a> <br> <br>
 				<div class= "col-sm-112">
 					<div class="row-fluid">
 			            <div class="thumbnails">
@@ -1083,7 +1083,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 				            </div>	 
 
 		<h4 id="QuickSMS"> <strong> Quick SMS </strong> </h4>
-			<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_campaign"); ?>" >Back to Top</a> <br> <br>
+			<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_admin"); ?>" >Back to Top</a> <br> <br>
 				<div class= "col-sm-112">
 					<div class="row-fluid">
 			            <div class="thumbnails">
@@ -1148,7 +1148,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 
 		<h1 id="Phonebook"> <strong> Phonebook </strong> </h1>     
 		    <h4 id="ViewContacts"> <strong> Phonebook </strong> </h2>
-				<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_campaign"); ?>" >Back to Top</a> <br> <br>        	
+				<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_admin"); ?>" >Back to Top</a> <br> <br>        	
 					<div class="span4">
 		                <div class="thumbnail">
 		                	<img data-src="holder.js/200x200" class="img-thumbnail" alt="200x200" src="assets/img/phonebook.png"  style="width:90%;"><br>
@@ -1252,7 +1252,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 			        </div>
 
 			<h4 id="AddContacts"> <strong> Add Contacts </strong> </h4>
-			<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_campaign"); ?>" >Back to Top</a> <br> <br>
+			<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_admin"); ?>" >Back to Top</a> <br> <br>
 				<div class= "col-sm-112">
 					<div class="row-fluid">
 			            <div class="thumbnails">
@@ -1364,7 +1364,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 				            </div>
 
 			<h4 id="DownloadContacts"> <strong> Download Contacts </strong> </h4>
-			<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_campaign"); ?>" >Back to Top</a> <br> <br>
+			<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_admin"); ?>" >Back to Top</a> <br> <br>
 				<div class= "col-sm-112">
 					<div class="row-fluid">
 			            <div class="thumbnails">
@@ -1381,7 +1381,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 				            </div>
 
 			<h4 id="Groups"> <strong> Groups </strong> </h4>
-			<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_campaign"); ?>" >Back to Top</a> <br> <br>
+			<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_admin"); ?>" >Back to Top</a> <br> <br>
 				<div class= "col-sm-112">
 					<div class="row-fluid">
 			            <div class="thumbnails">
@@ -1524,7 +1524,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 				            </div>	            		         
 
 			<h4 id="UploadFile"> <strong> Upload File </strong> </h4>
-			<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_campaign"); ?>" >Back to Top</a> <br> <br>
+			<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_admin"); ?>" >Back to Top</a> <br> <br>
 				<div class= "col-sm-112">
 					<div class="row-fluid">
 			            <div class="thumbnails">
@@ -1554,7 +1554,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 				            </div>
 
 			<h4 id="Uploads"> <strong> Uploads </strong> </h4>
-			<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_campaign"); ?>" >Back to Top</a> <br> <br>
+			<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_admin"); ?>" >Back to Top</a> <br> <br>
 				<div class= "col-sm-112">
 					<div class="row-fluid">
 			            <div class="thumbnails">
@@ -1649,7 +1649,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 
 			<h1 id="Reports"> <strong> Reports </strong> </h1>     
 		    <h4 id="SMSTraffic"> <strong> SMS Traffic Report </strong> </h2>
-				<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_campaign"); ?>" >Back to Top</a> <br> <br>        	
+				<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_admin"); ?>" >Back to Top</a> <br> <br>        	
 					<div class="span4">
 		                <div class="thumbnail">
 		                	<ol>
@@ -1745,7 +1745,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 			        </div>
 
 			<h4 id="GenerateReport"> <strong> Sample SMS Traffic Report </strong> </h2>
-				<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_campaign"); ?>" >Back to Top</a> <br> <br>        	
+				<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_admin"); ?>" >Back to Top</a> <br> <br>        	
 					<div class="span4">
 		                <div class="thumbnail">
 		                	<center> <img data-src="holder.js/200x200" class="img-thumbnail" alt="200x200" src="assets/img/genreport.png"  style="width:100%;"> </center><br>
@@ -1924,7 +1924,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 			        </div>	
 
 			<h4 id="CustomReport"> <strong> Custom Report (SMS Alert Reports per Product)</strong> </h2>
-				<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_campaign"); ?>" >Back to Top</a> <br> <br>        	
+				<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_admin"); ?>" >Back to Top</a> <br> <br>        	
 					<div class="span4">
 		                <div class="thumbnail">
 		                	<center> <img data-src="holder.js/200x200" class="img-thumbnail" alt="200x200" src="assets/img/SMSAlertReport.png"  style="width:100%;"> </center><br>
@@ -2048,7 +2048,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 			        </div>	           	  
 
 			<h4 id="CustomReport"> <strong> Custom Report (SMS Report - Pamme's Format)</strong> </h2>
-				<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_campaign"); ?>" >Back to Top</a> <br> <br>        	
+				<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_admin"); ?>" >Back to Top</a> <br> <br>        	
 					<div class="span4">
 		                <div class="thumbnail">
 		                	<center> <img data-src="holder.js/200x200" class="img-thumbnail" alt="200x200" src="assets/img/pammesreport.png"  style="width:100%;"> </center><br>
@@ -2263,7 +2263,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 			        </div>	           	  
 			
 			<h4 id="GenerateReport"> <strong> Custom Report (Standard Logs Report) </strong> </h2>
-				<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_campaign"); ?>" >Back to Top</a> <br> <br>        	
+				<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_admin"); ?>" >Back to Top</a> <br> <br>        	
 					<div class="span4">
 		                <div class="thumbnail">
 		                	<center> <img data-src="holder.js/200x200" class="img-thumbnail" alt="200x200" src="assets/img/standardlogsreport.png"  style="width:100%;"> </center><br>
@@ -2448,7 +2448,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 
 			<h1 id="ManageAccount"> <strong>  Manage Account </strong> </h1>
 				<h4 id="ChangePassword"> <strong>  Change Password </strong> </h4>
-					<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_campaign"); ?>" >Back to Top</a> <br> <br>        	
+					<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_admin"); ?>" >Back to Top</a> <br> <br>        	
 					<div class="span4">
 		                <div class="thumbnail">
 		                	<center> <img data-src="holder.js/200x200" class="img-thumbnail" alt="200x200" src="assets/img/changepassword.png"  style="width:70%;"> </center><br>
@@ -2503,7 +2503,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 			        </div>
 
 			    <h4 id="ChangePassword"> <strong>  Manage Users </strong> </h4>
-					<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_campaign"); ?>" >Back to Top</a> <br> <br>        	
+					<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_admin"); ?>" >Back to Top</a> <br> <br>        	
 					<div class="span4">
 		                <div class="thumbnail">
 		                	<center> <img data-src="holder.js/200x200" class="img-thumbnail" alt="200x200" src="assets/img/manageusers.png"  style="width:90%;"> </center><br>
@@ -2563,7 +2563,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 			        </div>
 
 			    <h4 id="ChangePassword"> <strong>  Add New User </strong> </h4>
-					<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_campaign"); ?>" >Back to Top</a> <br> <br>        	
+					<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_admin"); ?>" >Back to Top</a> <br> <br>        	
 					<div class="span4">
 		                <div class="thumbnail">
 		                	<center> <img data-src="holder.js/200x200" class="img-thumbnail" alt="200x200" src="assets/img/adduser.png"  style="width:60%;"> </center><br>
