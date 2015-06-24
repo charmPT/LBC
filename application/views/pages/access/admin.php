@@ -166,8 +166,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 							        		<li> <a href="<?php echo site_url("sample/page_admin"); ?>#ChangePassword"> Change Password </a> </li>
 							        		<li> <a href="<?php echo site_url("sample/page_admin"); ?>#DepartmentUsers"> Department Users </a> </li>	
 												<ul>
-													<li> <a href="<?php echo site_url("sample/page_admin"); ?>#DepartmentUsers"> Manage Users </a> </li>	
-													<li> <a href="<?php echo site_url("sample/page_admin"); ?>#DepartmentUsers"> Add New User </a> </li>	
+													<li> <a href="<?php echo site_url("sample/page_admin"); ?>#ManageUsers"> Manage Users </a> </li>	
+													<li> <a href="<?php echo site_url("sample/page_admin"); ?>#AddNewUser"> Add New User </a> </li>	
 												</ul>
 										</ul>
 									</div>
@@ -2502,7 +2502,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 		                </div>
 			        </div>
 
-			    <h4 id="ChangePassword"> <strong>  Manage Users </strong> </h4>
+			    <h4 id="ManageUsers"> <strong>  Manage Users </strong> </h4>
 					<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_admin"); ?>" >Back to Top</a> <br> <br>        	
 					<div class="span4">
 		                <div class="thumbnail">
@@ -2562,7 +2562,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', end
 		                </div>
 			        </div>
 
-			    <h4 id="ChangePassword"> <strong>  Add New User </strong> </h4>
+			    <h4 id="AddNewUser"> <strong>  Add New User </strong> </h4>
 					<a type="button" class="btn btn-xs btn-danger" href="<?php echo site_url("sample/page_admin"); ?>" >Back to Top</a> <br> <br>        	
 					<div class="span4">
 		                <div class="thumbnail">
